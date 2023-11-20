@@ -1,0 +1,29 @@
+.instruction {
+padding: 50px 30px;
+    // .instruction__container
+
+}
+
+.items-instruction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & a{
+            display: flex;
+                align-items: center;
+    font-size: 22px;
+        font-weight: 700;
+        color: var(--text-color-04);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            &:hover {
+                    // background-color: var(--accent-color);
+                    box-shadow: inset 0px 0px 0px 2px var(--accent-color);
+                    transform: scale(1.02);
+                    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
+    }
+    & img{
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,31 @@
+.info {
+background-color: var(--bg-color);
+padding: 50px 30px;
+color: white;
+line-height: 40px;
+    // .info__container
+
+}
+
+.items-info {
+
+    // .items-info__text-01
+
+    &__text-01 {
+        font-size: 22px;
+        margin-bottom: 30px;
+                @media (max-width: 767.98px) {
+                        font-size: 20px;
+                    }
+    };
+
+    // .items-info__text-02
+
+    &__text-02 {
+        font-size: 22px;
+        background-color: var(--text-color-03);
+                @media (max-width: 767.98px) {
+                        font-size: 20px;
+                    }
+    };
+};

@@ -1,0 +1,95 @@
+.recom {
+
+    // .recom__container
+
+    &__container {}
+
+    // .recom__wrapper
+
+    &__wrapper {
+        width: 100%;
+            display: flex;
+                align-items: center;
+        height: 205px;
+        background: linear-gradient(rgba(0, 0, 0, 0.493)), url("../images/bg_03.webp") 0 0/100% no-repeat;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+    }
+
+    // .recom__wrapper-text
+
+    &__wrapper-text {
+        max-width: 900px;
+        color: white;
+        // font-size: 30px;
+        padding: 0 15px;
+        font-size: 1.875rem;
+        line-height: 40.6px;
+        font-weight: 700;
+        text-align: center;
+        vertical-align: ceil($number: 0);
+                                    @media (max-width: 767.98px) {
+                                            font-size: 20px;
+                                        }
+    }
+}
+
+.sec-recom {
+    // .sec-recom__01
+
+    &__01 {
+        max-width: 660px;
+        padding: 50px 30px;
+        color: var(--text-color-01);
+
+    }
+    // .sec-recom__01-title
+
+    &__01-title {
+                font-size: 29px;
+                    font-weight: 700;
+                    margin-bottom: 30px;
+                    line-height: 40.6px;
+                            @media (max-width: 767.98px) {
+                                    font-size: 20px;
+                                }
+    }
+
+    // .sec-recom__01-text
+
+    &__01-text {
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    // .sec-recom__02
+
+    &__02 {
+        color: var(--text-color-04);
+        max-width: 500px;
+        margin-left: auto;
+        padding: 50px 30px;
+    }
+
+    // .sec-recom__02-text
+
+    &__02-text {
+        font-size: 22px;
+        margin-bottom: 30px;
+                                    @media (max-width: 767.98px) {
+                                            font-size: 20px;
+                                        }
+
+    }
+
+    // .sec-recom__02-list
+
+    &__02-list {
+        font-size: 22px;
+        font-weight: 700;
+                                    @media (max-width: 767.98px) {
+                                            font-size: 20px;
+                                        }
+    }
+}

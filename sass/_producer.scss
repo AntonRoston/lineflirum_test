@@ -1,0 +1,25 @@
+.producer {
+    padding: 50px 30px;
+background-color: var(--bg-color-01);
+color: white;
+line-height: 35px;
+    // .producer__container
+
+    &__container {}
+}
+
+.items-producer {
+
+    // .items-producer__text
+
+    &__text {
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    // .items-producer__items
+
+    &__items li{
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,15 @@
+:root{
+    --bg-color: rgb(255, 152, 126);
+    --bg-color-01: rgb(245,179,161);
+    --text-color-01: rgb(160, 74, 51);
+    --text-color-02: rgb(255, 255, 255);
+    --text-color-03: rgb(191, 114, 95);
+    --text-color-04: rgb(80, 37, 25);
+
+}
+
+[class*="__container"] {
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}

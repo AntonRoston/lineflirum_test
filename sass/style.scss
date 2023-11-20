@@ -1,0 +1,47 @@
+@import "null";
+@import "variables";
+@import "menu";
+@import "hero";
+@import "recom";
+@import "info";
+@import "useful";
+@import "search";
+@import "instruction";
+@import "producer";
+@import "footer";
+@import "btn-up";
+
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900&display=swap");
+
+body {
+    line-height: 1;
+    // color: #fff;
+    // background-color: #333;
+    font-family: "Raleway";
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Условные ПК, ноуты и телевизоры */
+/* 1050 из макета (контейнер + отступы) */
+@media (max-width: 1050px) {}
+
+/* Условные планшеты */
+@media (max-width: 991.98px) {}
+
+/* Условные мобилки */
+@media (max-width: 767.98px) {}
+
+
+
